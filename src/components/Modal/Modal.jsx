@@ -1,24 +1,6 @@
-import { EmptyBoard } from "../../utils/constants";
-import "./Ask.css";
+import "./Modal.css";
 
-function Ask({
-  setBoard,
-  setHistory,
-  setWinner,
-  setDone,
-  setIsX,
-  askBeforeReset,
-  setAskBeforeReset,
-}) {
-  const performReset = () => {
-    setIsX(true);
-    setBoard([...EmptyBoard]);
-    setHistory([]);
-    setWinner(null);
-    setDone(false);
-    setAskBeforeReset(false);
-  };
-
+function Ask({ performReset, askBeforeReset, setAskBeforeReset }) {
   return askBeforeReset ? (
     <div className="Ask">
       <div>
