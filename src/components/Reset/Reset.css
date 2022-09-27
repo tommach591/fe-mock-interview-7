@@ -1,0 +1,11 @@
+.Reset {
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  width: 5rem;
+  margin: 2rem;
+  margin: auto;
+}
+
+.Reset:hover {
+  cursor: pointer;
+}

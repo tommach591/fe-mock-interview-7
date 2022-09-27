@@ -1,0 +1,31 @@
+.Ask {
+  position: absolute;
+  width: 15rem;
+  border: 2px solid black;
+  background-color: white;
+  padding: 2rem;
+  left: 50.25rem;
+  top: 13rem;
+}
+
+.Choices {
+  display: flex;
+}
+
+.Button {
+  border: 1px solid black;
+  width: 5rem;
+  border-radius: 0.25rem;
+  margin: auto;
+}
+
+.Button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 450px) {
+  .Ask {
+    left: 2.575rem;
+    top: 13rem;
+  }
+}

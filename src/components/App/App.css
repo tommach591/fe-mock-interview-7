@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  font-family: cursive;
+}
+
+.Buttons {
+  text-align: center;
+  display: flex;
+  padding-left: 50rem;
+  padding-right: 50rem;
+}
+
+@media (max-width: 450px) {
+  .Buttons {
+    text-align: center;
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

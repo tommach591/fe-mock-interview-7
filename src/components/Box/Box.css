@@ -1,0 +1,18 @@
+.Box {
+  text-align: center;
+  border: 1px solid black;
+  width: 5.5rem;
+  height: 5.5rem;
+}
+
+.X {
+  color: red;
+}
+
+.O {
+  color: blue;
+}
+
+.Box:hover {
+  cursor: pointer;
+}
